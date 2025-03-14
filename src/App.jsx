@@ -1,9 +1,10 @@
-import React from 'react'
+import React from "react";
+import Button from "./components/Button/Button";
 
 const App = () => {
   return (
-    <div>Aboba</div>
-  )
-}
+    <Button />   
+  );
+};
 
-export default App
+export default App;

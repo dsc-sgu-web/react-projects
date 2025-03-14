@@ -1,0 +1,19 @@
+.button {
+  background-color: purple;
+  color: white;
+  padding: 1rem 2rem;
+  font-size: xx-large;
+  border-radius: 1rem;
+  border: none;
+  font-family: monospace;
+  transition: all .25s;
+  cursor: pointer;
+
+  &:hover {
+    background-color: rgb(99, 0, 99);
+  }
+
+  &:active {
+    scale: 0.9;
+  }
+}
